@@ -1,0 +1,16 @@
+PODS:
+  - YCPhotoBrowser (0.1.0)
+
+DEPENDENCIES:
+  - YCPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  YCPhotoBrowser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YCPhotoBrowser: 561d199ee31d0a2b338145578a4466e5580e565a
+
+PODFILE CHECKSUM: e080f2bcd7eecc1ecc9c517dfc8c8621eab44004
+
+COCOAPODS: 1.1.1
