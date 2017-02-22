@@ -7,58 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		066DB681D1A7D7931E9A0B07149D8E75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3B7308BC3C5516B7D3A473A194DCB1C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3F664941E2ADAD872AE727923F93DD04 /* Pods-YCPhotoBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F5E65AE201EC6F3B639ECE179201CE /* Pods-YCPhotoBrowser_Tests-dummy.m */; };
-		419887D4E86D0D8A9DE47EF8AB8E611D /* YCPhotoBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B422B71628FF4712BA10009FCB87D881 /* YCPhotoBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CA12B4720EECF41583D91B31E811841 /* Pods-YCPhotoBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C823D7482D4F0302F1702D620DD7 /* Pods-YCPhotoBrowser_Example-dummy.m */; };
 		69023C35F124C6C6E84068079B50372B /* Pods-YCPhotoBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 317C639A7F7810AAEB7A1F6E7C0932EB /* Pods-YCPhotoBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C671391059B4D18F4B8D4B5F3712275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B7063546C1A8018566BB718452B8BD3B /* Pods-YCPhotoBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4878A555B9654954A9B55C5455E3F84E /* Pods-YCPhotoBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD9F66D79EC4DC06F23422DF6B197BA6 /* YCPhotoBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 778598ABF84454DC109C253EDC5C489A /* YCPhotoBrowser-dummy.m */; };
+		94DFCC51FD2441B8888D657CF585F1F8 /* Pods-YCPhotoBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4878A555B9654954A9B55C5455E3F84E /* Pods-YCPhotoBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9D0098337D6DF7B7E122EF55C0F56B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E006B72BD3A747C2A58FA6B34C186A35 /* Pods-YCPhotoBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8458C823D7482D4F0302F1702D620DD7 /* Pods-YCPhotoBrowser_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		768290B6A5D2715A1DA0C404E049792E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AB25372CC7615DCF0209AA5C8972D560;
-			remoteInfo = YCPhotoBrowser;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		056CD37E83E849924EAAFD3EE2B6419A /* YCPhotoBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YCPhotoBrowser.modulemap; sourceTree = "<group>"; };
 		06814C0F40A41A2AD84585FC283A4380 /* Pods-YCPhotoBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YCPhotoBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0CD7446FD5C8566545B3AE71789AE07B /* Pods_YCPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F50F426761A967EBE2D69224D409CA /* Pods-YCPhotoBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YCPhotoBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24BF1250E572E80760F16C7B3F803625 /* YCPhotoBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YCPhotoBrowser.xcconfig; sourceTree = "<group>"; };
-		2D7F114995BAF260B6E2BB0FC772A74E /* YCPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YCPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		317C639A7F7810AAEB7A1F6E7C0932EB /* Pods-YCPhotoBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YCPhotoBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4878A555B9654954A9B55C5455E3F84E /* Pods-YCPhotoBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YCPhotoBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
 		4B806A12D8E7CAE005E5CFA6241D5B21 /* Pods-YCPhotoBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCPhotoBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B7CFB625B73540094E4FB48A2602207 /* YCPhotoBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCPhotoBrowser-prefix.pch"; sourceTree = "<group>"; };
 		5E9397A54E5EE30F69CBE9EB2869B9C3 /* Pods-YCPhotoBrowser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCPhotoBrowser_Example-resources.sh"; sourceTree = "<group>"; };
 		64C88226F2F8A455BE093F6AA3AB5FAF /* Pods-YCPhotoBrowser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCPhotoBrowser_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		676B703A0DC5A8439AE74F8A3A1F4C2F /* Pods-YCPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		778598ABF84454DC109C253EDC5C489A /* YCPhotoBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YCPhotoBrowser-dummy.m"; sourceTree = "<group>"; };
+		7B6EBA4B4CD06DD6A5314E36605E2090 /* Pods_YCPhotoBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCPhotoBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA4247EB0FBA520E884EA47622AE41E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DAE85A9EDF92881418B0362E0A848F7 /* Pods-YCPhotoBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YCPhotoBrowser_Tests.modulemap"; sourceTree = "<group>"; };
 		8458C823D7482D4F0302F1702D620DD7 /* Pods-YCPhotoBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YCPhotoBrowser_Example-dummy.m"; sourceTree = "<group>"; };
-		8D5F6E7F2812F132C088F2BA20C82987 /* Pods_YCPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98A1C0EBF0B490C5D7E61635E62AA809 /* Pods-YCPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B04D6AFEC8B8F0252A7974891A06BE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF7657EE1F98C3FD2B82D3756689CAF /* Pods-YCPhotoBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YCPhotoBrowser_Example.modulemap"; sourceTree = "<group>"; };
-		B422B71628FF4712BA10009FCB87D881 /* YCPhotoBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCPhotoBrowser-umbrella.h"; sourceTree = "<group>"; };
-		B6A1DC085012A48C0DA5AD3290D04D79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAC254CC21EC21E105AFF6C5F6541BD0 /* Pods-YCPhotoBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCPhotoBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5F5E65AE201EC6F3B639ECE179201CE /* Pods-YCPhotoBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YCPhotoBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC145B8182C276730E28076E18E5B352 /* Pods-YCPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D8435EAFB96431D733F3EF6ED96AE413 /* Pods-YCPhotoBrowser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCPhotoBrowser_Tests-resources.sh"; sourceTree = "<group>"; };
 		EA5ED9ED5E7E1822F23BF4C5AC3A618C /* Pods-YCPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F89C229D6CA65D0BBEA52BC4D66FBE08 /* Pods_YCPhotoBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCPhotoBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6F16EA5AE5DDB8B1FD5F6C0360B013 /* Pods-YCPhotoBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCPhotoBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,46 +51,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CFA18612265546F23921CAC269765F5 /* Frameworks */ = {
+		113534BB7D16132910405C7BBA8B637A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				066DB681D1A7D7931E9A0B07149D8E75 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4A1665B765909C373B518EBAFFC160B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8C671391059B4D18F4B8D4B5F3712275 /* Foundation.framework in Frameworks */,
+				C9D0098337D6DF7B7E122EF55C0F56B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2ECF220AB333BB2D5C89803750211A7C /* YCPhotoBrowser */ = {
+		2E83ED91FCF726C9A810BF6B16D15BCB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EFA7F61B90B3764A46A6057D8D2B706B /* Support Files */,
-				7A6A70B988A3A0BC4B9FC17F6D729C89 /* YCPhotoBrowser */,
-			);
-			name = YCPhotoBrowser;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5151F521034C535D700123389D1B3888 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6834A5A272C54468877B6098878B7C63 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2ECF220AB333BB2D5C89803750211A7C /* YCPhotoBrowser */,
+				F7FF144698B2C575965777571D9839E0 /* YCPhotoBrowser */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -141,21 +96,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7A6A70B988A3A0BC4B9FC17F6D729C89 /* YCPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				5151F521034C535D700123389D1B3888 /* Classes */,
-			);
-			path = YCPhotoBrowser;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6834A5A272C54468877B6098878B7C63 /* Development Pods */,
+				2E83ED91FCF726C9A810BF6B16D15BCB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BB602C6B16606B1E0923FF6BEF235B95 /* Products */,
+				D55C74605A07009C19331314AE6AB957 /* Products */,
 				B0019595D8FE8F0D290859DE6F04BFE8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -187,16 +134,6 @@
 			path = "Target Support Files/Pods-YCPhotoBrowser_Example";
 			sourceTree = "<group>";
 		};
-		BB602C6B16606B1E0923FF6BEF235B95 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0CD7446FD5C8566545B3AE71789AE07B /* Pods_YCPhotoBrowser_Example.framework */,
-				8D5F6E7F2812F132C088F2BA20C82987 /* Pods_YCPhotoBrowser_Tests.framework */,
-				2D7F114995BAF260B6E2BB0FC772A74E /* YCPhotoBrowser.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,18 +142,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EFA7F61B90B3764A46A6057D8D2B706B /* Support Files */ = {
+		D55C74605A07009C19331314AE6AB957 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6A1DC085012A48C0DA5AD3290D04D79 /* Info.plist */,
-				056CD37E83E849924EAAFD3EE2B6419A /* YCPhotoBrowser.modulemap */,
-				24BF1250E572E80760F16C7B3F803625 /* YCPhotoBrowser.xcconfig */,
-				778598ABF84454DC109C253EDC5C489A /* YCPhotoBrowser-dummy.m */,
-				5B7CFB625B73540094E4FB48A2602207 /* YCPhotoBrowser-prefix.pch */,
-				B422B71628FF4712BA10009FCB87D881 /* YCPhotoBrowser-umbrella.h */,
+				7B6EBA4B4CD06DD6A5314E36605E2090 /* Pods_YCPhotoBrowser_Example.framework */,
+				F89C229D6CA65D0BBEA52BC4D66FBE08 /* Pods_YCPhotoBrowser_Tests.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YCPhotoBrowser";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7FF144698B2C575965777571D9839E0 /* YCPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = YCPhotoBrowser;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,58 +170,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B1D625A02AB9F650D0690A6C519EBBE /* Headers */ = {
+		308675CC469FB654CB04087906FE6FDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419887D4E86D0D8A9DE47EF8AB8E611D /* YCPhotoBrowser-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E199C8A63009FDEB70A568AC964CF2CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7063546C1A8018566BB718452B8BD3B /* Pods-YCPhotoBrowser_Example-umbrella.h in Headers */,
+				94DFCC51FD2441B8888D657CF585F1F8 /* Pods-YCPhotoBrowser_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FEB3723D905BA8779ACFF87D7C8791D /* Pods-YCPhotoBrowser_Example */ = {
+		92A369C5E5060FD7E0280605143800F1 /* Pods-YCPhotoBrowser_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D957CB6C5008C2B57BD92B6C7E62AF6 /* Build configuration list for PBXNativeTarget "Pods-YCPhotoBrowser_Example" */;
+			buildConfigurationList = 12B2764EB6791619CC40562781369889 /* Build configuration list for PBXNativeTarget "Pods-YCPhotoBrowser_Example" */;
 			buildPhases = (
-				4B3E04ADE427E134779699917788A750 /* Sources */,
-				F4A1665B765909C373B518EBAFFC160B /* Frameworks */,
-				E199C8A63009FDEB70A568AC964CF2CD /* Headers */,
+				BEB01F3D9BB7017143E955C4D0B548CC /* Sources */,
+				113534BB7D16132910405C7BBA8B637A /* Frameworks */,
+				308675CC469FB654CB04087906FE6FDD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				10C20FF23C6E8276CCF34232BD9CCF4F /* PBXTargetDependency */,
 			);
 			name = "Pods-YCPhotoBrowser_Example";
 			productName = "Pods-YCPhotoBrowser_Example";
-			productReference = 0CD7446FD5C8566545B3AE71789AE07B /* Pods_YCPhotoBrowser_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB25372CC7615DCF0209AA5C8972D560 /* YCPhotoBrowser */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D215BCAECA64F975C1FFE8EAC64215F1 /* Build configuration list for PBXNativeTarget "YCPhotoBrowser" */;
-			buildPhases = (
-				6CBDB69955125FDE0D04404AC394B058 /* Sources */,
-				9CFA18612265546F23921CAC269765F5 /* Frameworks */,
-				5B1D625A02AB9F650D0690A6C519EBBE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = YCPhotoBrowser;
-			productName = YCPhotoBrowser;
-			productReference = 2D7F114995BAF260B6E2BB0FC772A74E /* YCPhotoBrowser.framework */;
+			productReference = 7B6EBA4B4CD06DD6A5314E36605E2090 /* Pods_YCPhotoBrowser_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6BD064920F6B2DFC770A2CC3DF484E3 /* Pods-YCPhotoBrowser_Tests */ = {
@@ -298,7 +212,7 @@
 			);
 			name = "Pods-YCPhotoBrowser_Tests";
 			productName = "Pods-YCPhotoBrowser_Tests";
-			productReference = 8D5F6E7F2812F132C088F2BA20C82987 /* Pods_YCPhotoBrowser_Tests.framework */;
+			productReference = F89C229D6CA65D0BBEA52BC4D66FBE08 /* Pods_YCPhotoBrowser_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -318,13 +232,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BB602C6B16606B1E0923FF6BEF235B95 /* Products */;
+			productRefGroup = D55C74605A07009C19331314AE6AB957 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FEB3723D905BA8779ACFF87D7C8791D /* Pods-YCPhotoBrowser_Example */,
+				92A369C5E5060FD7E0280605143800F1 /* Pods-YCPhotoBrowser_Example */,
 				D6BD064920F6B2DFC770A2CC3DF484E3 /* Pods-YCPhotoBrowser_Tests */,
-				AB25372CC7615DCF0209AA5C8972D560 /* YCPhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
@@ -338,32 +251,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B3E04ADE427E134779699917788A750 /* Sources */ = {
+		BEB01F3D9BB7017143E955C4D0B548CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA12B4720EECF41583D91B31E811841 /* Pods-YCPhotoBrowser_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CBDB69955125FDE0D04404AC394B058 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD9F66D79EC4DC06F23422DF6B197BA6 /* YCPhotoBrowser-dummy.m in Sources */,
+				E006B72BD3A747C2A58FA6B34C186A35 /* Pods-YCPhotoBrowser_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		10C20FF23C6E8276CCF34232BD9CCF4F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YCPhotoBrowser;
-			target = AB25372CC7615DCF0209AA5C8972D560 /* YCPhotoBrowser */;
-			targetProxy = 768290B6A5D2715A1DA0C404E049792E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1BE19FD7BC09BFBFC7A70A45E3F30EB3 /* Release */ = {
@@ -400,6 +296,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		3BF64631795ECF7ECE1F4BD4E7392019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 676B703A0DC5A8439AE74F8A3A1F4C2F /* Pods-YCPhotoBrowser_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Pods-YCPhotoBrowser_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YCPhotoBrowser_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -438,41 +369,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9B1E6282443888A8554BE6AC418A83FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5ED9ED5E7E1822F23BF4C5AC3A618C /* Pods-YCPhotoBrowser_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Pods-YCPhotoBrowser_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YCPhotoBrowser_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -520,75 +416,9 @@
 			};
 			name = Debug;
 		};
-		A7216A5FACCF921999703CEBD3557FD7 /* Debug */ = {
+		ABF4390CF50F1B7FD13512338C2967AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 676B703A0DC5A8439AE74F8A3A1F4C2F /* Pods-YCPhotoBrowser_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Pods-YCPhotoBrowser_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_YCPhotoBrowser_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9E61BFE19809A5045CF6140973A3DDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24BF1250E572E80760F16C7B3F803625 /* YCPhotoBrowser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YCPhotoBrowser/YCPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YCPhotoBrowser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YCPhotoBrowser/YCPhotoBrowser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = YCPhotoBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CEABF7642413A550B27EA0BF3B6E573D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24BF1250E572E80760F16C7B3F803625 /* YCPhotoBrowser.xcconfig */;
+			baseConfigurationReference = EA5ED9ED5E7E1822F23BF4C5AC3A618C /* Pods-YCPhotoBrowser_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -601,14 +431,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YCPhotoBrowser/YCPhotoBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YCPhotoBrowser/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YCPhotoBrowser/YCPhotoBrowser.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YCPhotoBrowser_Example/Pods-YCPhotoBrowser_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = YCPhotoBrowser;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YCPhotoBrowser_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -655,6 +489,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12B2764EB6791619CC40562781369889 /* Build configuration list for PBXNativeTarget "Pods-YCPhotoBrowser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BF64631795ECF7ECE1F4BD4E7392019 /* Debug */,
+				ABF4390CF50F1B7FD13512338C2967AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -669,24 +512,6 @@
 			buildConfigurations = (
 				D107E0F0B0BB789F6FC08892E0EBEF78 /* Debug */,
 				1BE19FD7BC09BFBFC7A70A45E3F30EB3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D957CB6C5008C2B57BD92B6C7E62AF6 /* Build configuration list for PBXNativeTarget "Pods-YCPhotoBrowser_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7216A5FACCF921999703CEBD3557FD7 /* Debug */,
-				9B1E6282443888A8554BE6AC418A83FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D215BCAECA64F975C1FFE8EAC64215F1 /* Build configuration list for PBXNativeTarget "YCPhotoBrowser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9E61BFE19809A5045CF6140973A3DDA /* Debug */,
-				CEABF7642413A550B27EA0BF3B6E573D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

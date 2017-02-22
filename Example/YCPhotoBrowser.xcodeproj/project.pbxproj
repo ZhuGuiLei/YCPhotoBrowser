@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		06F797CF442C53BDF751DC2C /* Pods_YCPhotoBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A064B9E65047BEABDC811F02 /* Pods_YCPhotoBrowser_Example.framework */; };
+		1309F39D1E5CA8C200EA0CFF /* YCPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1309F3941E5CA8C200EA0CFF /* YCPhotoBrowserController.m */; };
+		1309F39E1E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1309F3971E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.m */; };
+		1309F39F1E5CA8C200EA0CFF /* YCPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1309F39A1E5CA8C200EA0CFF /* YCPhotoBrowserCell.m */; };
+		1309F3A01E5CA8C200EA0CFF /* YCProgressImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1309F39C1E5CA8C200EA0CFF /* YCProgressImageView.m */; };
 		13DECCEC1E2E1E6900DF9A81 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 13DECCEA1E2E1E6900DF9A81 /* .gitkeep */; };
 		4C3C4E3D6FD37D33649313F7 /* Pods_YCPhotoBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665BB94B21EFE912B19DFC5C /* Pods_YCPhotoBrowser_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +42,14 @@
 
 /* Begin PBXFileReference section */
 		0A6D2D8B391612DD2A840EFC /* YCPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YCPhotoBrowser.podspec; path = ../YCPhotoBrowser.podspec; sourceTree = "<group>"; };
+		1309F3931E5CA8C200EA0CFF /* YCPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YCPhotoBrowserController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1309F3941E5CA8C200EA0CFF /* YCPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YCPhotoBrowserController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1309F3961E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YCPhotoBrowserAnimator.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1309F3971E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YCPhotoBrowserAnimator.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1309F3991E5CA8C200EA0CFF /* YCPhotoBrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YCPhotoBrowserCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1309F39A1E5CA8C200EA0CFF /* YCPhotoBrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YCPhotoBrowserCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		1309F39B1E5CA8C200EA0CFF /* YCProgressImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = YCProgressImageView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1309F39C1E5CA8C200EA0CFF /* YCProgressImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = YCProgressImageView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		130D7281D67D25EBC3E14DD1 /* Pods-YCPhotoBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCPhotoBrowser_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCPhotoBrowser_Example/Pods-YCPhotoBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		13DECCEA1E2E1E6900DF9A81 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		33970ED4B127EFA3928A22FA /* Pods-YCPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YCPhotoBrowser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YCPhotoBrowser_Tests/Pods-YCPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,9 +107,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1309F3911E5CA8C200EA0CFF /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1309F3921E5CA8C200EA0CFF /* Controller */,
+				1309F3951E5CA8C200EA0CFF /* Tool */,
+				1309F3981E5CA8C200EA0CFF /* View */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		1309F3921E5CA8C200EA0CFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1309F3931E5CA8C200EA0CFF /* YCPhotoBrowserController.h */,
+				1309F3941E5CA8C200EA0CFF /* YCPhotoBrowserController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1309F3951E5CA8C200EA0CFF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1309F3961E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.h */,
+				1309F3971E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		1309F3981E5CA8C200EA0CFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1309F3991E5CA8C200EA0CFF /* YCPhotoBrowserCell.h */,
+				1309F39A1E5CA8C200EA0CFF /* YCPhotoBrowserCell.m */,
+				1309F39B1E5CA8C200EA0CFF /* YCProgressImageView.h */,
+				1309F39C1E5CA8C200EA0CFF /* YCProgressImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		13DECCE91E2E1E6900DF9A81 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1309F3911E5CA8C200EA0CFF /* PhotoBrowser */,
 				13DECCEA1E2E1E6900DF9A81 /* .gitkeep */,
 			);
 			name = Classes;
@@ -403,9 +455,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1309F3A01E5CA8C200EA0CFF /* YCProgressImageView.m in Sources */,
+				1309F39E1E5CA8C200EA0CFF /* YCPhotoBrowserAnimator.m in Sources */,
+				1309F39F1E5CA8C200EA0CFF /* YCPhotoBrowserCell.m in Sources */,
 				6003F59E195388D20070C39A /* YCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				1309F39D1E5CA8C200EA0CFF /* YCPhotoBrowserController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
