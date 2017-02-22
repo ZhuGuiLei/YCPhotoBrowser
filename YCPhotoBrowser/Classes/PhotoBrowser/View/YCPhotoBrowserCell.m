@@ -7,8 +7,9 @@
 //
 
 #import "YCPhotoBrowserCell.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
 #import "YCProgressImageView.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface YCPhotoBrowserCell ()<UIScrollViewDelegate>
 

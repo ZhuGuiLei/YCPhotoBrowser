@@ -9,6 +9,7 @@
 #import "YCPhotoBrowserController.h"
 #import "YCPhotoBrowserCell.h"
 #import "YCPhotoBrowserAnimator.h"
+#import <SVProgressHUD/SVProgressHUD.h>
 
 @interface PhotoBrowserViewLayout : UICollectionViewFlowLayout
 

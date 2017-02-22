@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YCPhotoBrowser/Classes/**/*"
+  "source_files": "YCPhotoBrowser/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 3.0"
+    ],
+    "SVProgressHUD": [
+      "~> 2.0"
+    ]
+  }
 }
