@@ -32,7 +32,7 @@
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext
 {
-    return 0.5;
+    return 0.25;
 }
 
 /// 实现具体的动画效果 - 
@@ -72,7 +72,7 @@
     }
     
     UIView *fromView = [transitionContext viewForKey:UITransitionContextFromViewKey];
-    [fromView removeFromSuperview];
+    
     
     UIImageView *iv = [self.dismissDelegate imageViewForDismiss];
     
@@ -82,9 +82,10 @@
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
         iv.frame = [self.presentDelegate photoBrowserPresentFromRect:index];
+        fromView.alpha = 0;
     } completion:^(BOOL finished) {
         [iv removeFromSuperview];
-        
+        [fromView removeFromSuperview];
         [transitionContext completeTransition:YES];
     }];
     
@@ -107,7 +108,7 @@
     
     // 3. 图像视图
     UIImageView *iv = [self.presentDelegate imageViewForPresent:self.index];
-    // 写到这里了 05-21
+    
     
     iv.frame = [self.presentDelegate photoBrowserPresentFromRect:self.index];
     

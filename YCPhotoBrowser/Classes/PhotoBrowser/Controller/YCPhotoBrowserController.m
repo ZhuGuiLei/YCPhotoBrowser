@@ -101,25 +101,7 @@ static NSString *PhotoBrowserViewCellId = @"YCPhotoBrowserViewCellId";
 {
     
     [self.view addSubview:self.collectionView];
-//    [self.view addSubview:self.saveBtn];
-//    [self.view addSubview:self.closeBtn];
-    
     _collectionView.frame = self.view.bounds;
-//    CGSize size = CGSizeMake(100, 36);
-//    [_closeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.bottom.equalTo(self.view.mas_bottom).offset(-8);
-//        make.left.equalTo(self.view.mas_left).offset(8);
-//        make.size.mas_equalTo(size);
-//    }];
-//    
-//    [_saveBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.bottom.equalTo(self.view.mas_bottom).offset(-8);
-//        make.right.equalTo(self.view.mas_right).offset(-28);
-//        make.size.mas_equalTo(size);
-//    }];
-    
-//    [self.closeBtn addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
-//    [self.saveBtn addTarget:self action:@selector(savePhoto) forControlEvents:UIControlEventTouchUpInside];
     
     [self.collectionView registerClass:[YCPhotoBrowserCell class] forCellWithReuseIdentifier:PhotoBrowserViewCellId];
     self.collectionView.dataSource = self;
@@ -167,10 +149,10 @@ static NSString *PhotoBrowserViewCellId = @"YCPhotoBrowserViewCellId";
     self.collectionView.alpha = scale;
     if (isHidden) {
         // 1. 根据 scale 修改根视图的透明度 & 缩放比例
-        self.view.alpha = scale;
+//        self.view.alpha = scale;
         self.view.transform = CGAffineTransformMakeScale(scale, scale);
     } else {
-        self.view.alpha = 1.0;
+//        self.view.alpha = 1.0;
         self.view.transform = CGAffineTransformIdentity;
     }
 }
