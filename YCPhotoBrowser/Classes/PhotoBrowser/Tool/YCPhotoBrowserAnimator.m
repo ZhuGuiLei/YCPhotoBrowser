@@ -11,11 +11,11 @@
 
 
 @implementation YCPhotoBrowserAnimator
-- (void)setDelegateParamsPresentDelegate:(id<YCPhotoBrowserPresentDelegate>)presentDelegate indexPath:(NSIndexPath *)indexPath dismissDelegate:(id<YCPhotoBrowserDismissDelegate>)dismissDelegate
+- (void)setDelegateParamsPresentDelegate:(id<YCPhotoBrowserPresentDelegate>)presentDelegate index:(NSInteger)index dismissDelegate:(id<YCPhotoBrowserDismissDelegate>)dismissDelegate
 {
     self.presentDelegate = presentDelegate;
     self.dismissDelegate = dismissDelegate;
-    self.indexPath = indexPath;
+    self.index = index;
 }
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
@@ -78,10 +78,10 @@
     
     [transitionContext.containerView addSubview:iv];
     
-    NSIndexPath *indexPath = [self.dismissDelegate indexPathForDismiss];
+    NSInteger index = [self.dismissDelegate indexForDismiss];
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-        iv.frame = [self.presentDelegate photoBrowserPresentFromRect:indexPath];
+        iv.frame = [self.presentDelegate photoBrowserPresentFromRect:index];
     } completion:^(BOOL finished) {
         [iv removeFromSuperview];
         
@@ -92,7 +92,7 @@
 
 - (void)presentAnimation:(id <UIViewControllerContextTransitioning>)transitionContext
 {
-    if (!self.presentDelegate || !self.indexPath) {
+    if (!self.presentDelegate) {
         return;
     }
     // 1. 目标视图
@@ -106,17 +106,17 @@
     toVC.collectionView.hidden = YES;
     
     // 3. 图像视图
-    UIImageView *iv = [self.presentDelegate imageViewForPresent:self.indexPath];
+    UIImageView *iv = [self.presentDelegate imageViewForPresent:self.index];
     // 写到这里了 05-21
     
-    iv.frame = [self.presentDelegate photoBrowserPresentFromRect:self.indexPath];
+    iv.frame = [self.presentDelegate photoBrowserPresentFromRect:self.index];
     
     [transitionContext.containerView addSubview:iv];
     
     toView.alpha = 0;
     
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-        iv.frame = [self.presentDelegate photoBrowserPresentToRect:self.indexPath];
+        iv.frame = [self.presentDelegate photoBrowserPresentToRect:self.index];
         toView.alpha = 1;
     } completion:^(BOOL finished) {
         

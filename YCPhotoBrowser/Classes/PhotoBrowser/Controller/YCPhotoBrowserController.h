@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface YCPhotoBrowserController : UIViewController
-@property (nonatomic,strong) NSIndexPath *currentIndexPath;
-@property (nonatomic,copy) NSArray *imageURLs;
-@property (nonatomic,strong) UICollectionView *collectionView;
+@property (nonatomic, assign) NSUInteger currentIndex;
+@property (nonatomic, copy) NSArray *imageURLs;
+@property (nonatomic, strong) UICollectionView *collectionView;
 
-- (instancetype)initWithImageURLs:(NSArray *)imageURLs indexPath:(NSIndexPath *)indexPath;
+- (instancetype)initWithImageURLs:(NSArray *)imageURLs currentIndex:(NSUInteger)currentIndex;
 @end

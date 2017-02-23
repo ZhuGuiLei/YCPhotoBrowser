@@ -25,20 +25,15 @@
     self.minimumInteritemSpacing = 0;
     self.minimumLineSpacing = 0;
     self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-    
     self.collectionView.pagingEnabled = YES;
     self.collectionView.bounces = NO;
-    
     self.collectionView.showsHorizontalScrollIndicator = NO;
 }
 
 @end
 
-static NSString *PhotoBrowserViewCellId = @"PhotoBrowserViewCellId";
+static NSString *PhotoBrowserViewCellId = @"YCPhotoBrowserViewCellId";
 @interface YCPhotoBrowserController ()<UICollectionViewDataSource,YCPhotoBrowserCellDelegate,YCPhotoBrowserDismissDelegate,UIActionSheetDelegate>
-
-//@property (nonatomic,strong) UIButton *closeBtn;
-//@property (nonatomic,strong) UIButton *saveBtn;
 @end
 
 @implementation YCPhotoBrowserController
@@ -57,24 +52,19 @@ static NSString *PhotoBrowserViewCellId = @"PhotoBrowserViewCellId";
     return UIStatusBarStyleLightContent;
 }
 
-- (instancetype)initWithImageURLs:(NSArray *)imageURLs indexPath:(NSIndexPath *)indexPath
+- (instancetype)initWithImageURLs:(NSArray *)imageURLs currentIndex:(NSUInteger)currentIndex
 {
     self = [super init];
     if (self) {
         self.imageURLs = imageURLs;
-        self.currentIndexPath = indexPath;
+        self.currentIndex = currentIndex;
     }
     return self;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.collectionView scrollToItemAtIndexPath:self.currentIndexPath atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:self.currentIndex inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
 }
 
 - (void)close
@@ -173,8 +163,8 @@ static NSString *PhotoBrowserViewCellId = @"PhotoBrowserViewCellId";
 - (void)photoBrowserCellDidZoomScale:(CGFloat)scale
 {
     BOOL isHidden = (scale < 1);
-    [self hideControls:isHidden];
-    
+//    [self hideControls:isHidden];
+    self.collectionView.alpha = scale;
     if (isHidden) {
         // 1. 根据 scale 修改根视图的透明度 & 缩放比例
         self.view.alpha = scale;
@@ -187,9 +177,6 @@ static NSString *PhotoBrowserViewCellId = @"PhotoBrowserViewCellId";
 
 /// 隐藏或者显示控件
 - (void)hideControls:(BOOL)isHidden {
-//    self.closeBtn.hidden = isHidden;
-//    self.saveBtn.hidden = isHidden;
-    
     self.collectionView.backgroundColor = isHidden ? [UIColor clearColor] : [UIColor blackColor];
 }
 
@@ -208,22 +195,6 @@ static NSString *PhotoBrowserViewCellId = @"PhotoBrowserViewCellId";
     }
     return _collectionView;
 }
-
-//- (UIButton *)saveBtn
-//{
-//    if (!_saveBtn) {
-//        _saveBtn = [[UIButton alloc] initWithTitle:@"Save" titleColor:[UIColor whiteColor] fontSize:14 backGroundColor:[UIColor darkGrayColor] cornerRadius:5 buttonType:UIButtonTypeSystem];
-//    }
-//    return _saveBtn;
-//}
-
-//- (UIButton *)closeBtn
-//{
-//    if (!_closeBtn) {
-//        _closeBtn = [[UIButton alloc] initWithTitle:@"Close" titleColor:[UIColor whiteColor] fontSize:14 backGroundColor:[UIColor darkGrayColor] cornerRadius:5 buttonType:UIButtonTypeSystem];
-//    }
-//    return _closeBtn;
-//}
 
 #pragma mark - Animatior Dissmiss Delegate
 - (UIImageView *)imageViewForDismiss
@@ -246,9 +217,9 @@ static NSString *PhotoBrowserViewCellId = @"PhotoBrowserViewCellId";
 
 }
 
-- (NSIndexPath *)indexPathForDismiss
+- (NSInteger)indexForDismiss
 {
-    return [self.collectionView indexPathsForVisibleItems][0];
+    return [self.collectionView indexPathsForVisibleItems][0].item;
 }
 
 @end

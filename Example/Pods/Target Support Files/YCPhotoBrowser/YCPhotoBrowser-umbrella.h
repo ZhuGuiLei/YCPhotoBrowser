@@ -6,6 +6,7 @@
 #import "YCPhotoBrowserAnimator.h"
 #import "YCPhotoBrowserCell.h"
 #import "YCProgressImageView.h"
+#import "YCPhotoBrowserHeader.h"
 
 FOUNDATION_EXPORT double YCPhotoBrowserVersionNumber;
 FOUNDATION_EXPORT const unsigned char YCPhotoBrowserVersionString[];
